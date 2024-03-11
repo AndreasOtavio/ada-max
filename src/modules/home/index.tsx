@@ -1,3 +1,9 @@
 export const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <div className="container">
+      <div className="section">
+        <h1 className="title">Home</h1>
+      </div>
+    </div>
+  );
 };
