@@ -18,7 +18,9 @@ npm i react-router-dom
 npm run dev
 ```
 
-## 1 e 2. Criando o Form
+## 1. Criando o Form
+
+28/02/2024
 
 - state para email;
 - isSubmitted;
@@ -28,9 +30,23 @@ npm run dev
 - mostrar senha em texto;
 - submit do form;
 - loading no submit;
-- adiciona o fakeApi
-- mostra erro
-- success
-- set token localStorage e redirect
+- adicionar o fakeApi
+- mostrar erro (Alert) de credenciais inválidas
+- mostrar console.log() de sucesso
 
-## 3 Login
+01/03/2024
+
+- Comunicar com a API;
+- Salvar o token no LocalStorage;
+- Redirecionar para HOME
+- Criar um hook para pegar os dados do usuário; (`npm i jose` para decodificar o token)
+- Criar um hooke para proteger a HOME;
+- Fazer Logout;
+- Criar um rota protegida para proteger a HOME e as demais páginas;
+
+Atividade em Grupo
+
+- Login com adamax -> id para BACKSTAGE
+- Login com user -> ir para PROFILE
+
+- [plus]: usar @rehooks/local-storage
