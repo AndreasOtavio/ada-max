@@ -18,7 +18,7 @@ npm i react-router-dom
 npm run dev
 ```
 
-## 1. Criando o Form
+## 1 e 2. Criando o Form
 
 - state para email;
 - isSubmitted;
@@ -31,4 +31,6 @@ npm run dev
 - adiciona o fakeApi
 - mostra erro
 - success
-- SE DER TEMPO - set token localStorage e redirect
+- set token localStorage e redirect
+
+## 3 Login
